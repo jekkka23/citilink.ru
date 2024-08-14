@@ -69,23 +69,23 @@ task regression_test(type: Test) {     //потом удалить эту тас
         includeTags("regression")
     }
 }
-//tasks.withType(Test) {
-//    systemProperties(System.getProperties())
-//    useJUnitPlatform()
-//
-//    testLogging {
-//        lifecycle {
-//            events "started", "skipped", "failed", "standard_error", "standard_out"
-//            exceptionFormat "short"
-//        }
-//    }
-//}
-//
-//tasks.register("regression", Test) {
-//    useJUnitPlatform {
-//        includeTags "regression"
-//    }
-//}
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+tasks.register("regression", Test) {
+    useJUnitPlatform {
+        includeTags "regression"
+    }
+}
 
 
 
