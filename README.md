@@ -80,6 +80,7 @@ Allure используется для генерации подробных о�
   <p align="center">  
 <img title="Allure Graphics" src="images/screenshots/allure.png" width="850">
 </p>
+
 <a id="telegram"></a>
 ## <img alt="Allure" height="25" src="images/icons/Telegram.svg" width="25"/></a> Уведомление ботом в Telegram о сборке
 Настроены уведомления в Telegram для получения информации о статусе сборки и тестирования.
