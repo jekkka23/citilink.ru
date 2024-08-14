@@ -48,8 +48,8 @@
 - **Allure TestOps**: Платформа для управления тестированием и анализа результатов тестов.
 
 <a id="jenkins"></a>
-## <img alt="Jenkins" height="25" src="images/icons/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Kod3ik_qa_guru_x5/)</a>
-Jenkins используется для автоматизации сборки и тестирования проекта. Он позволяет любому члену команды запускать тесты в любое время.
+## <img alt="Jenkins" height="25" src="images/icons/Jenkins.svg" width="25"/></a><a name="Сборка"></a>Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Citilink.ru_UI_regress/)</a>
+Jenkins используется для автоматизации сборки и тестирования проекта. Он позволяет любому члену команды запускать тесты в любое время. В данном проекте сборка выполняется автоматически каждые 6 часов.
 <p align="center">  
 <a href="https://jenkins.autotests.cloud/job/Kod3ik_qa_guru_x5/"><img src="images/screenshots/jenkins-scrin.png" alt="Jenkins" width="950"/></a>  
 </p>
