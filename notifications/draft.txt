@@ -1,0 +1,9 @@
+token:
+
+7220809287:AAGl_9JaopjZK5VzxRl5OlDjPMOP6B-qdGs
+
+https://api.telegram.org/bot7220809287:AAGl_9JaopjZK5VzxRl5OlDjPMOP6B-qdGs/getUpdates
+
+id:
+
+290656468
