@@ -72,6 +72,14 @@ Allure используется для генерации подробных о�
 <p align="center">  
 <img title="Allure Overview Dashboard" src="images/screenshots/telega-scrin.png" width="550">  
 
+<a id="video"></a>
+## <img alt="Selenoid" height="25" src="images/icons/Selenoid.svg" width="25"/></a> Видеозаписи выполнения тестов в Selenoid 
+Помогают визуально проверять, как проходят тесты и выявлять проблемы.
+
+<p align="center">
+<img title="Selenoid Video" src="images/video/video.gif" width="550" height="350"  alt="video">   
+</p>
+
 
 
 ### Плагины
