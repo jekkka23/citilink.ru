@@ -50,7 +50,7 @@ Jenkins используется для автоматизации сборки 
 <a id="console"></a>
 
 <a id="allure"></a>
-## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/C28-twentyny-alfabank-ui/allure/)</a>
+## <img alt="Allure" height="25" src="images/icons/Allure.svg" width="25"/></a> <a name="Allure"></a>Allure [отчет](https://jenkins.autotests.cloud/job/Citilink.ru_UI_regress/13/allure)</a>
 
 Allure используется для генерации подробных отчетов о тестировании. Он предоставляет информацию о результатах тестов, включая графики и диаграммы, что помогает анализировать качество продукта и выявлять проблемные области.
 
@@ -63,8 +63,14 @@ Allure используется для генерации подробных о�
 ### Пример теста
 
   <p align="center">  
-<img title="Allure Graphics" src="images/screenshots/allure2.png" width="850">
+<img title="Allure Graphics" src="images/screenshots/allure.png" width="850">
 </p>
+
+## <img alt="Allure" height="25" src="images/icons/Telegram.svg" width="25"/></a> Уведомление ботом в Telegram о сборке
+Настроены уведомления в Telegram для получения информации о статусе сборки и тестирования.
+
+<p align="center">  
+<img title="Allure Overview Dashboard" src="images/screenshots/telega-scrin.png" width="550">  
 
 
 
