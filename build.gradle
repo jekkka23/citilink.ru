@@ -1,0 +1,92 @@
+plugins {
+    id 'java-library' // Подключение плагина для работы с Java библиотеками
+    id "io.qameta.allure" version "2.11.2" // Подключение плагина для интеграции с Allure
+}
+
+repositories {
+    mavenCentral() // Указание репозитория Maven Central для получения зависимостей
+}
+
+
+def allureVersion = "2.27.0" // Определение версии Allure
+def selenideVersion = "7.2.3" // Определение версии Selenide
+def aspectjVersion = "1.9.19" // Определение версии AspectJ
+
+allure {
+    report {
+        version.set(allureVersion) // Установка версии Allure для отчетов
+    }
+    adapter {
+        aspectjWeaver.set(true) // Использование AspectJ Weaver для Allure
+        frameworks {
+            junit5 {
+                adapterVersion.set(allureVersion) // Установка версии Allure адаптера для JUnit 5
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation(
+            "com.codeborne:selenide:$selenideVersion", // Добавление зависимости Selenide для тестов
+            "org.junit.jupiter:junit-jupiter:5.10.2", // Добавление зависимости JUnit 5 для тестов
+            "com.github.javafaker:javafaker:1.0.2", // Добавление зависимости Java Faker для генерации данных
+            "io.qameta.allure:allure-selenide:$allureVersion", // Добавление зависимости Allure Selenide для интеграции отчетов
+            'org.slf4j:slf4j-simple:2.0.7' // Добавление зависимости SLF4J для логирования
+    )
+}
+
+
+tasks.withType(Test) {
+    systemProperties(System.getProperties()) // Передача системных свойств в задачи тестирования
+    useJUnitPlatform() // Указание использовать JUnit Platform для запуска тестов
+
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out" // Конфигурация логирования тестов: какие события логировать
+            exceptionFormat "short" // Форматирование исключений в коротком виде
+        }
+    }
+}
+
+tasks.withType(Test) {
+    systemProperties(System.getProperties()) // Повторная передача системных свойств в задачи тестирования
+    useJUnitPlatform {
+        if (System.getProperty("type") != null && !System.getProperty("type").isEmpty()) { // Включение только тех тестов, которые помечены определенными тегами, если задан системный параметр "type"
+            includeTags System.getProperty("type")
+        }
+    }
+}
+
+
+
+
+//эти таски создаются для jenkins
+
+//task regression_test(type: Test) {     //потом удалить эту таску
+//    useJUnitPlatform {
+//        includeTags("regression")
+//    }
+//}
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
+    useJUnitPlatform()
+
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
+    }
+}
+
+tasks.register("regression", Test) {
+    useJUnitPlatform {
+        includeTags "regression"
+    }
+}
+
+
+
+
