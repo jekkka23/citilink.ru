@@ -27,7 +27,7 @@ public class PageWithHomeFolder {
             checkPopularCategoriesHome = $("[data-meta-name='CategoryTilesLayout__category-tiles']"),
             businessCategoriesHome = $(".app-catalog-14l4nah"),
             checkBusinessCategoriesHome = $("[data-meta-name='CategoryTilesLayout__category-tiles']"),
-            checkSecondBannerHome = $(".app-catalog-l6xrso"),
+            checkSecondBannerHome = $(".app-catalog-1ibpi67"),
             checkThirdBannerHome = $(".app-catalog-116okc5"),
             checkBestsellersHome = $(".app-catalog-0.e6dnqu30"),
             checkBestNewProductsHome = $(".app-catalog-0.e1g4qpsb0"),
