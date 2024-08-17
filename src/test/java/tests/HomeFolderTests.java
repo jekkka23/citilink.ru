@@ -44,7 +44,7 @@ public class HomeFolderTests extends TestBase {
                 .checkBottomHeader("Корзина")
 
                 .checkFirstBannerVisible()
-                .checkAmtFirstBanner("12", "13", "14", "15")
+                .checkAmtFirstBanner("12", "13", "14", "15", "16")
 
                 .checkPopularCategoriesTitle("Популярные категории")
                 .checkPopularCategories("Ноутбуки")

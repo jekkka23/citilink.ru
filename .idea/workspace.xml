@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28974f72-2937-4c1a-aec2-cd7932c0564c" name="Changes" comment="build" />
+    <list default="true" id="28974f72-2937-4c1a-aec2-cd7932c0564c" name="Changes" comment="added banner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,13 +33,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CitilinkRegress" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="CitilinkRegress" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -70,7 +66,9 @@
     "Gradle.CitilinkRegress [allureServe].executor": "Run",
     "Gradle.HomeFolderTests (1).executor": "Run",
     "Gradle.HomeFolderTests.executor": "Run",
+    "Gradle.HomeFolderTests.homeFolderTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/evgenymikhailov/IdeaProjects/qa-guru/CitilinkRegress/images/video",
     "node.js.detected.package.eslint": "true",
@@ -97,7 +95,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HomeFolderTests (1)">
+  <component name="RunManager" selected="Gradle.HomeFolderTests.homeFolderTest">
     <configuration name="CitilinkRegress [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,8 +188,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="HomeFolderTests.homeFolderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":regression_test" />
+            <option value="--tests" />
+            <option value="&quot;tests.HomeFolderTests.homeFolderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeFolderTests.homeFolderTest" />
         <item itemvalue="Gradle.HomeFolderTests (1)" />
         <item itemvalue="Gradle.CitilinkRegress [allureServe]" />
         <item itemvalue="Gradle.CitilinkRegress [allureReport]" />
@@ -217,6 +240,7 @@
       <updated>1723609915857</updated>
       <workItem from="1723609917259" duration="25164000" />
       <workItem from="1723718322527" duration="94000" />
+      <workItem from="1723718429214" duration="7969000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <option name="closed" value="true" />
@@ -378,7 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723636070718</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added banner">
+      <option name="closed" value="true" />
+      <created>1723786609921</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723786609921</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added banner">
+      <option name="closed" value="true" />
+      <created>1723786753364</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723786753364</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +426,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="added banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="added banner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

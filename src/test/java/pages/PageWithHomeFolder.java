@@ -107,7 +107,7 @@ public class PageWithHomeFolder {
 
     @Step("Проверка количества реклам на первом баннере: {values}")
     public PageWithHomeFolder checkAmtFirstBanner(String... values) {
-        checkAmtFirstBannerHome.shouldHave(or("text values", text(values[0]), text(values[1]), text(values[2]), text(values[3])));
+        checkAmtFirstBannerHome.shouldHave(or("text values", text(values[0]), text(values[1]), text(values[2]), text(values[3]), text(values[4])));
         return this;
     }
 
