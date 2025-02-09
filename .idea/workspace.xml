@@ -60,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CitilinkRegress [allureReport].executor": "Run",
-    "Gradle.CitilinkRegress [allureServe].executor": "Run",
-    "Gradle.HomeFolderTests (1).executor": "Run",
-    "Gradle.HomeFolderTests.executor": "Run",
-    "Gradle.HomeFolderTests.homeFolderTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/evgenymikhailov/IdeaProjects/qa-guru/CitilinkRegress/images/video",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/evgenymikhailov/IdeaProjects/qa-guru/CitilinkRegress/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CitilinkRegress [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CitilinkRegress [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeFolderTests (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeFolderTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeFolderTests.homeFolderTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evgenymikhailov/IdeaProjects/qa-guru/CitilinkRegress/images/video&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/evgenymikhailov/IdeaProjects/qa-guru/CitilinkRegress/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/video" />
@@ -240,7 +240,11 @@
       <updated>1723609915857</updated>
       <workItem from="1723609917259" duration="25164000" />
       <workItem from="1723718322527" duration="94000" />
-      <workItem from="1723718429214" duration="7969000" />
+      <workItem from="1723718429214" duration="12448000" />
+      <workItem from="1724129524449" duration="1297000" />
+      <workItem from="1724154682551" duration="467000" />
+      <workItem from="1724155196573" duration="308000" />
+      <workItem from="1738834938598" duration="14050000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <option name="closed" value="true" />
@@ -418,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723786753364</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added banner">
+      <option name="closed" value="true" />
+      <created>1723872979494</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723872979494</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
